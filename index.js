@@ -22,8 +22,6 @@ async function send() {
         to: to,
         subject: subject,
         text: text,  
-        //html:'<div>HTML형식으로 보낼 때 사용됩니다.</div>',  //html은 가렸습니다.
-       // attachments: files
     })
 
 }
